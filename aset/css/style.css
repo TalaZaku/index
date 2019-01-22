@@ -1,0 +1,247 @@
+body{
+    font-family: 'PT Sans', sans-serif;
+    color: #010101;
+    margin: 0px;
+    padding: 0px;
+    direction: ltr;
+}
+.clear{
+    clear: both;
+}
+.HeroSection{
+    background: #fcdb00;
+    
+}
+.HeroSection{
+    width: 100%;
+    height: auto;
+    padding: 52px 0px 100px 0px;
+    box-sizing: border-box;
+}
+.container{
+    width: 940px;
+    margin: 0 auto;
+}
+.logo{
+    width: 50%;
+    float: left;
+}
+.menu{
+    width: 50%;
+    float: right;
+}
+.menu ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-left:50px;
+}
+.menu ul li a{
+    color: #010101;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.menu ul{
+    text-align: right;
+}
+.menu ul li a:hover{
+    text-decoration: underline;
+}
+.menu ul li:first-child{
+    margin-left: 0px;
+}
+.HeroText{
+    width: 50%;
+    float: left;
+    padding-top:145px;
+    box-sizing: border-box;
+
+}
+.HeroImg{
+    width:50%;
+    float: right;
+}
+.HeroText h1{
+    font-size: 32px;
+    font-weight: bold;
+    color: #313841;
+    font-size: 20px;
+    font-weight: normal;
+    padding-right: 85px;
+    box-sizing: border-box;
+    text-align: left;
+}
+.HeroText p{ 
+    font-size: 16px;
+    color: #555555;
+    padding-right: 85px;
+    box-sizing: border-box;
+}
+a.link{
+    color: #010101;
+    font-size: 42px;
+    text-decoration: none;
+    margin-right: 35px;
+}
+a.link:last-child{
+    margin-right: 0px;
+}
+.HeroImg img{
+    margin-top:60px;
+    margin-left: 155px;
+}
+.Section h2{
+font-weight: bold;
+font-size: 32px;
+text-align: center;
+}
+.titleDesc p{
+font-size: 20px;
+color: #313841;
+text-align: center;
+}
+.row{
+    height: auto;
+    width:100% ;
+    margin-bottom: 30px;
+    
+
+}
+.featureItem{
+    float: left;
+    width: 33.3%;
+    height: auto;
+    
+}
+.featureIcon{
+    float: left;
+    width: 60px;
+    font-size: 50px;
+    box-sizing: border-box;
+    padding-top: 90px;
+    
+}
+.featureDesc{
+    
+    float: right;
+    padding-right: 20px;
+    padding-left: 5px;
+    box-sizing: border-box;
+    width: calc(130% -90px);
+    
+}
+.featureDesc h3{
+    font-size: 22px;
+}
+.featureDesc p{
+    font-size: 16px;
+    color:#898989;
+}
+.Mail{
+    height: 50px;
+    width: 580px;
+    padding-left: 25px;
+    border-radius: 4px;
+    border: 0px;
+    font-size: 16px;
+}
+.Submit{
+    background: #fcdb00;
+    color:#010101;
+    width: 130px;
+    height: 50px;
+    border: 0px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    transition-duration: 0.2s;
+    margin-left: 15px;
+    text-align: center;
+}
+.Submit:hover{
+cursor: pointer;
+background:#c7ae05;
+transition-duration: 0.2s;
+}
+.keepSection{
+    background:#010101;
+}
+.keepSection h2{
+    color:#fcdb00;
+}
+.keepSection p{
+    color:#898989;
+}
+.keepsection{
+    text-align: center;
+    padding-top: 90px;
+    
+}
+.keepsection form{
+    
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.social{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: 50px;
+}
+.social a{
+    width:37px;
+    height: 37px;
+    color:#010101;
+    border-radius: 4px;
+    text-decoration: none;
+    transition-duration: 0.2s;
+    display: inline-block;
+    font-size: 28px;
+    margin-left: 35px;
+    background: #fcdb00;
+    line-height: 42px;
+    margin-top: 50px;
+}
+.social a:first-child{
+    margin-left: 0px;
+}
+.social a:hover{
+    background: #c7ae05;
+    transition-duration: 0.2s;
+}
+.footerColumn{
+    width: 20%;
+    height: auto;
+    float: left;
+}
+.footerColumn p,
+.footerColumn span{
+    color: #ffffff;
+}
+.footerColumn span{
+    display: inline-block;
+    width: 100%;
+}
+.footerColumn p,
+.footerColumn ul{
+    margin: 0px;
+}
+.footerColumn ul li a{
+    color: white;
+    text-decoration: none;
+    transition-duration: 0.2s;
+}
+.footerColumn ul li a:hover{
+    color: #fcdb00;
+    transition-duration: 0.2s;
+}
+.footerColumn ul{
+    box-sizing: border-box;
+    padding-left: 80px;
+}
+.flText{
+    text-align: left;
+
+}
